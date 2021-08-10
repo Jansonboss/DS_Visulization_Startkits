@@ -1,8 +1,8 @@
-# Visulization Template (Matplotlib, ggplot2)
+# Visulization Startkits (Matplotlib, ggplot2)
 
+
+`Matplotlib`
 ```
-
-# maplotlib
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -20,10 +20,10 @@ axes[5].boxplot([cyl4,cyl6,cyl8])
 
 plt.tight_layout() # I add this anytime I have a grid as it "does the right thing"
 plt.show()
+```
 
-
-
-
+`ggplot2`
+```
 # ggplot2 in python
 from plotnine.data import economics
 from plotnine import ggplot, aes, geom_line
