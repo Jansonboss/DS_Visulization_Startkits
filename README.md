@@ -19,8 +19,44 @@ axes[4].bar(cyl, avg_mpg)
 axes[5].boxplot([cyl4,cyl6,cyl8])
 
 plt.tight_layout() # I add this anytime I have a grid as it "does the right thing"
+
+# Decoration
+plt.xlabel("Taxis Duration in Seconds")
+plt.ylabel("index")
+
+
+#Decoration
+plt.xticks(rotation='70')
+ax.set_yticks([0, 5, 10, 15, 20, 25, 30])
+ax.set_yticklabels(["0%","5%", "10%", "15%", "20%", "25%", "30%"])
+
+
+#lightening the borderbound
+ax.spines["top"].set_alpha(.0)
+ax.spines["right"].set_alpha(.0)
+ax.spines["left"].set_alpha(.0)
+ax.spines["bottom"].set_bounds(0, 59)
+ax.spines["bottom"].set_linewidth(0.6)
+
+#add arrow
+ax.annotate("", xy=(50, 5), # start point position
+            xytext=(10, 30), # arrow head position
+           arrowprops=dict(arrowstyle="->"))
+
+ax.set_xlabel("Cylinders")
+ax.set_ylabel("MPG")
+
+plt.xticks(rotation='70') # rotate x ticks label
+plt.axis('off')
+
+plt.xlabel("Taxis Duration in Seconds")
+plt.ylabel("index")
+
 plt.show()
 ```
+
+
+
 
 `ggplot2`
 ```
