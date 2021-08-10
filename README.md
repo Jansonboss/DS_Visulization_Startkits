@@ -1,7 +1,7 @@
 # Visulization Startkits (Matplotlib, ggplot2)
 
 
-`Matplotlib`
+## Matplotlib
 ```
 import numpy as np
 import pandas as pd
@@ -56,9 +56,9 @@ plt.show()
 ```
 
 
+</br>
 
-
-`ggplot2`
+## ggplot2
 ```
 # ggplot2 in python
 from plotnine.data import economics
@@ -81,4 +81,5 @@ Useful Resources:
 - Customize plot: https://github.com/parrt/msds593/blob/master/notebooks/matplotlib-customize.ipynb
 - Maplotlib Turotial: https://github.com/rougier/matplotlib-tutorial
 - Awesome Collection: https://www.kaggle.com/joshuaswords/netflix-data-visualization
+- Cheat Sheet: https://github.com/rougier/matplotlib-cheatsheet
 - CV plot example: https://www.kaggle.com/eduardo4jesus/stanford-cars-dataset-a-quick-look-up
