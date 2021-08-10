@@ -69,6 +69,14 @@ from plotnine import ggplot, aes, geom_line
     + aes(x="date", y="pop")  # What variable to use
     + geom_line()  # Geometric object to use for drawing
 )
+
+
+def myplot(x = "date", y = "pop"):
+    return (
+        ggplot(economics) # What data to use
+            + aes(x, y)   # What variable to use
+            + geom_line() # Geometric object to use for drawing
+    )
 ```
 
 
