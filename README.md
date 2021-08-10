@@ -79,4 +79,6 @@ Useful Resources:
 - Basic plot: https://github.com/parrt/msds593/blob/master/notebooks/matplotlib-cookbook.ipynb
 - Beautify plot: https://github.com/parrt/msds593/blob/master/notebooks/matplotlib-beautify.ipynb
 - Customize plot: https://github.com/parrt/msds593/blob/master/notebooks/matplotlib-customize.ipynb
+- Maplotlib Turotial: https://github.com/rougier/matplotlib-tutorial
+- Awesome Collection: https://www.kaggle.com/joshuaswords/netflix-data-visualization
 - CV plot example: https://www.kaggle.com/eduardo4jesus/stanford-cars-dataset-a-quick-look-up
